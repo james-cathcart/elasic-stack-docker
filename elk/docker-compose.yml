@@ -34,7 +34,6 @@ services:
     build: ./logstash
     ports:
       - 5044:5044
-      - 5000:5000
       - 9600:9600
       - 9700:9700
     networks:
