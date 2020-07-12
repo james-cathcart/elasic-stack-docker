@@ -11,4 +11,3 @@ services:
       - 5000:5000
     volumes:
       - "/Users/jamescathcart/workspace/elastick-stack-7/elastic-docker/logstash/book-ingest/build/data:/data"
-
